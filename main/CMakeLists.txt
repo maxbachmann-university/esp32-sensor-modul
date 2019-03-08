@@ -1,6 +1,9 @@
 # Set usual component variables
 set(COMPONENT_SRCS "ulp_adc_example_main.c"
-                   "nvs_flash_initialize.c")
+                   "EventGroup.c"
+                   "wifi_task.c"
+                   "nvs_flash_initialize.k"
+                   "mqtts_task.c")
 set(COMPONENT_ADD_INCLUDEDIRS "")
 set(COMPONENT_REQUIRES soc nvs_flash ulp driver)
 

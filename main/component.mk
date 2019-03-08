@@ -21,3 +21,4 @@ include $(IDF_PATH)/components/ulp/component_ulp_common.mk
 #
 # End of ULP support additions to component makefile.
 #
+
